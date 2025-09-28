@@ -1,0 +1,10 @@
+<?php
+// Database config
+define("DB_HOST", "your_db_host");
+define("DB_NAME", "your_db_name");
+define("DB_USER", "username");
+define("DB_PASS", "password");
+
+// AWS SNS config
+define("AWS_REGION", "your_region");
+define("SNS_TOPIC_ARN", "arn:aws:sns:YOUR_REGION:YOUR_ACCOUNT_ID:YOUR_TOPIC_NAME");
